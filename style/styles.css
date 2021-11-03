@@ -92,21 +92,22 @@ body {
 .quote-container {
   background: #32455a;
   border-radius: 5px;
-  padding: 50px 30px 50px 30px;
+  padding: 35px 50px 60px 30px;
   position: relative;
   margin: auto;
+}
+.quote-icon {
+  position: absolute;
 }
 .quote-icon > i{
   font-size: 4.3em;
   color: #4a627ee5;
-  z-index: 1;
-  top: 8%;
-  left: 5%;
 }
 .quote-div {
-  z-index: 2;
-  
-  background: #32455a;
+  background: none;
+  position: relative;
+  top: 32px;
+  left: 20px;
 }
 .quote {
   font-size: 1.5rem;
